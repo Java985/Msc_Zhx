@@ -1,0 +1,4 @@
+<!--pages/index/index.wxml-->
+<cu-custom bgColor="bg-gradual-red" isCustom="{{false}}"><view slot="content">M2c</view></cu-custom>
+<!-- <tabbar tabbar="{{ tabbar }}"></tabbar> -->
+<view>发现</view>

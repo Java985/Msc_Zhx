@@ -1,0 +1,4 @@
+<!--pages/play/play.wxml-->
+<!-- <text>pages/play/play.wxml</text> -->
+<!-- <tabbar tabbar="{{ tabbar }}"></tabbar> -->
+<view>播放页面</view>

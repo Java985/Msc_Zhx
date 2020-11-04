@@ -1,0 +1,39 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition:all 3s;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  z-index: 111;
+}
+.userinfo-avatar-border{
+	width: 128rpx;
+	height: 128rpx;
+	position: absolute;
+	margin: 20rpx;
+	margin-left: 0rpx;
+	transition:all 2s;
+	border-radius: 50%;
+	transform:scale(2);
+}
+.userinfo-avatar-hover{
+  transform:scale(3);
+  /* border: 1rpx solid rgb(245, 11, 50); */
+  background-color: pink;
+}
+
+.userinfo-nickname {
+  color: #666;
+  z-index: 111;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
