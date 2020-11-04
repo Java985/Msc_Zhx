@@ -1,0 +1,4 @@
+<!--pages/index/index.wxml-->
+<cu-custom bgColor="bg-gradual-red" isCustom="{{false}}"><view slot="content">Msc</view></cu-custom>
+<!-- <tabbar tabbar="{{ tabbar }}"></tabbar> -->
+<view>收藏</view>

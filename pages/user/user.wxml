@@ -1,0 +1,8 @@
+<!--pages/index/index.wxml-->
+<!-- <cu-custom bgColor="bg-gradual-red" isCustom="{{false}}"><view slot="content"></view></cu-custom> -->
+<!-- <tabbar tabbar="{{ tabbar }}"></tabbar> -->
+<view class="head-title">
+  <view class="head-head">
+    
+  </view>
+</view>

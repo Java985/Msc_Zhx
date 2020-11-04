@@ -1,0 +1,12 @@
+<cover-view class="tab-bar">
+  <cover-view wx:for="{{list}}"  wx:key="index" class="tab-bar-item {{item.diyClass}}" data-path="{{item.pagePath}}" data-index="{{index}}" bindtap="switchTab">
+    <block wx:if="{{index != 2}}">
+      <cover-image src="{{selected === index ? item.selectedIconPath : item.iconPath}}" class="{{item.diyClass}}"></cover-image>
+      <cover-view style="color: {{selected === index ? selectedColor : color}}" class="{{item.diyClass}}">{{item.text}}</cover-view>
+    </block>
+    <block wx:if="{{index === 2}}">
+      <cover-image src="{{selected === index ? item.selectedIconPath : item.iconPath}}" class="{{item.diyClass}}"></cover-image>
+    </block>
+  </cover-view>
+</cover-view>
+
